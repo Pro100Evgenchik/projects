@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" href = "base.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css" />
+    <title>Регистрация</title>
+  <!-- Login -->
+  <div id="Background">
+	<style>
+		#change_background{width:500px;height:100px;background:yellow}
+		</style>
+	<form id="form_id" method="post" action="" onsubmit="javascript:return validate('form_id','email');">
+		<input type="email" id="email" name="email" />
+		<input type="submit"/>
+	 </form>
+	 <form id="form2_id" method="post" action="" onsubmit="javascript:return validate2('form2_id','password');">
+		<input type="password" id="password" name="password" />
+		<input type="submit"/>
+	 </form>
+  </div>
+
+
+  <!-- Custom Script -->
+  <script src="java.js"></script>
+
+</body>
+</html>
